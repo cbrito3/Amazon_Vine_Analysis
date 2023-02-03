@@ -38,6 +38,6 @@ For this project, I selected the following dataset: https://s3.amazonaws.com/ama
   
   Based on there results 59.09% of paid (Vine) reviews were 5-stars and 53.64% of unpaid (non-Vine) reviews were 5-stars.
 
-## Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+## Summary: 
   Based on the results there is bias and is supported by the results. From a total of 27,009 reviews, 22 were Vine reviews and the rest were non-Vine reviews, this is a very small number to sample. One additional analysis step that could help support my statement is to add another filter and see if the result of any bias changes.
   
