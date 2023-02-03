@@ -10,6 +10,12 @@ For this project, I selected the following dataset: https://s3.amazonaws.com/ama
 * Deliverable 2: Determine Bias of Vine Reviews
 * Deliverable 3: A Written Report on the Analysis (README.md)
 
+  # Perform ETL on Amazon Product Reviews 
+  * The Amazon_Reviews_ETL.ipynb file does the following:
+    - An Amazon Review dataset is extracted as a DataFrame
+    - The extracted dataset is transformed into four DataFrames with the correct columns 
+    - All four DataFrames are loaded into their respective tables in pgAdmin 
+
 ## Results: Using bulleted lists and images of DataFrames as support, address the following questions:
 * How many Vine reviews and non-Vine reviews were there?
   
