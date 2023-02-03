@@ -16,6 +16,15 @@ For this project, I selected the following dataset: https://s3.amazonaws.com/ama
     - The extracted dataset is transformed into four DataFrames with the correct columns 
     - All four DataFrames are loaded into their respective tables in pgAdmin 
 
+  # Determine Bias of Vine Reviews
+  * The analysis does the following:
+    - There is a DataFrame or table for the vine_table data using one of three methods above 
+    - The data is filtered to create a DataFrame or table where there are 20 or more total votes 
+    - The data is filtered to create a DataFrame or table where the percentage of helpful_votes is equal to or greater than 50% 
+    - The data is filtered to create a DataFrame or table where there is a Vine review 
+    - The data is filtered to create a DataFrame or table where there isn’t a Vine review 
+    - The total number of reviews, the number of 5-star reviews, and the percentage 5-star reviews are calculated for all Vine and non-Vine reviews
+
 ## Results: Using bulleted lists and images of DataFrames as support, address the following questions:
 * How many Vine reviews and non-Vine reviews were there?
   
