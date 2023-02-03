@@ -17,7 +17,7 @@ For this project, I selected the following dataset: https://s3.amazonaws.com/ama
     - All four DataFrames are loaded into their respective tables in pgAdmin 
 
   # Determine Bias of Vine Reviews
-  * The analysis does the following:
+  * The analysis and Vine_Review_Analysis.ipynb fil do the following:
     - There is a DataFrame or table for the vine_table data using one of three methods above 
     - The data is filtered to create a DataFrame or table where there are 20 or more total votes 
     - The data is filtered to create a DataFrame or table where the percentage of helpful_votes is equal to or greater than 50% 
